@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: #f6f8ff;">
+
+    <div class="container  pt-10">
+        <div class="row">
+            <div class="md:col-6">
+                <img src="img/2.jpg" class="w-75">
+            </div>
+
+            <div class="md:col-6 ">
+                 <h2>Greate Account</h2>
+                 <h4  class="mt-4 mb-7 fg-secondary">Go ahead and sign up,let everyone <br>know how awesome you are!</h4>
+                 <h5 id="result"></h5>
+                 <form onsubmit="return vaildateData()" action="success.html" method="post">
+                    <input id="user" class="form-control p-5 mb-6" type="text" name="user" placeholder="user name">
+                    <input id="email" class="form-control p-5 mb-5" type="text" name="Email" placeholder="Email">
+                    <input id="pass" class="form-control p-5 mb-5" type="password" name="password" placeholder="password">
+                    <input id="confirm" class="form-control p-5 mb-5" type="password" name="password" placeholder="confirm password">
+                    <input type="submit" value="GREATE NEW ACCOUNT" class="btn-solid theme-primary d-block w-100">
+                 </form>
+                </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
